@@ -27,13 +27,15 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
-    "heroku-postbuild": "npm run build"},
+    "heroku-postbuild": "npm run build",
+    "start": "serve -s build"},
   "eslintConfig": {
     "extends": "react-app"
   },
